@@ -10,6 +10,12 @@ A SnackBar is a brief message that appears at the bottom of the screen to provid
 
 Shows a "No Internet Connection" SnackBar with an undo button when you tap "Connect Wifi". The SnackBar appears at the bottom with a purple background and automatically dismisses after 2 seconds.
 
+## Key SnackBar Attributes
+
+- **backgroundColor**: `Colors.purple[100]` - Sets the purple background color
+- **duration**: `Duration(seconds: 2)` - Auto-dismisses after 2 seconds  
+- **action**: `SnackBarAction` - Provides the interactive "Undo" button
+
 ## Getting Started
 
 ### Prerequisites
@@ -19,11 +25,15 @@ Shows a "No Internet Connection" SnackBar with an undo button when you tap "Conn
 ### Installation
 
 1. Clone this repository
-2. Install dependencies:
+2. Navigate to the Flutter project:
+   ```bash
+   cd snackbar
+   ```
+3. Install dependencies:
    ```bash
    flutter pub get
    ```
-3. Run the app:
+4. Run the app:
    ```bash
    flutter run
    ```
@@ -37,5 +47,5 @@ Shows a "No Internet Connection" SnackBar with an undo button when you tap "Conn
 
 ## Code Structure
 
-- `lib/main.dart` - App entry point with Material theme
-- `lib/pages/snack_bar.dart` - SnackBar implementation and UI
+- `snackbar/lib/main.dart` - App entry point with Material theme
+- `snackbar/lib/pages/snack_bar.dart` - SnackBar implementation and UI
