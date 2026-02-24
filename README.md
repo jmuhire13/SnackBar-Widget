@@ -2,6 +2,10 @@
 
 A Flutter application demonstrating SnackBar widgets with custom styling and interactive actions.
 
+## Screenshot
+
+![App Screenshot](images/Demo%20Screenshot.png)
+
 ## What is a SnackBar?
 
 A SnackBar is a brief message that appears at the bottom of the screen to provide feedback about an action. It can contain text and optional action buttons, and typically disappears automatically after a few seconds.
